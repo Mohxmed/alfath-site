@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="تواصل معنا - نحن في خدمتك دائماً">
+    <title>مركز الخدمات الإلكترونية | اتصل بنا</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav-container">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-print"></i>
+                    <span>مؤسسة الفتح</span>
+                </a>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">الرئيسية</a></li>
+                    <li><a href="printing.html" class="nav-link">المطبعة</a></li>
+                    <li><a href="services.html" class="nav-link">الخدمات</a></li>
+                    <li><a href="about.html" class="nav-link">من نحن</a></li>
+                    <li><a href="contact.html" class="nav-link active">اتصل بنا</a></li>
+                </ul>
+                
+                <!-- Right Side: Social + Call Button -->
+                <div class="nav-right">
+                    <div class="social-links">
+                        <a target="_blank" href="https://www.facebook.com/CentrElfath" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a target="_blank" href="https://wa.me/201007681870?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D9%85%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%A7%D8%B9%D8%B1%D9%81%20%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AA%D8%B1" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <a href="tel:+201558060018" class="call-btn">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>اتصل الآن</span>
+                    </a>
+                </div>
+                
+                
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 50vh; padding-top: 150px;">
+        <div class="container text-center">
+            <div class="reveal">
+                <h1 style="font-size: 3.5rem; margin-bottom: 20px;">
+                    <span class="highlight">تواصل</span> معنا
+                </h1>
+                <p style="font-size: 1.3rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto;">
+                    نحن سعداء بالاستماع إليك ومساعدتك في أي استفسار
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-section reveal">
+                <!-- Contact Form -->
+                <div>
+                    <h2 style="margin-bottom: 20px; color: var(--primary-green);">أرسل لنا رسالة</h2>
+                    <p style="margin-bottom: 30px; color: var(--text-secondary);">
+                        املأ النموذج وسنتواصل معك في أقرب وقت ممكن
+                    </p>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="form-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">رقم الهاتف *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <span class="form-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email">
+                            <span class="form-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">الموضوع *</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="form-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">الرسالة *</label>
+                            <textarea id="message" name="message" required></textarea>
+                            <span class="form-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i> إرسال الرسالة
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2 style="margin-bottom: 20px; color: var(--primary-green);">معلومات التواصل</h2>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>العنوان</h3>
+                            <p>مدينة السنبلاوين - حي النخل - شارع مجلس المدينة</p>
+                            <p>السنبلاوين - الدقهلية - مصر</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>الهاتف</h3>
+                            <p>الخط الساخن: تحت التطوير ..</p>
+                            <p>الفرع الرئيسي: +201007681870</p>
+                            <p>خدمة العملاء: +201558060018</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>واتساب</h3>
+                            <p>+201007681870</p>
+                            <p>متاح 24/7 للرد السريع</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>البريد الإلكتروني</h3>
+                            <p>info@alfath.online</p>
+                            <p>contact@alfath.online</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>ساعات العمل</h3>
+                            <p>السبت - الخميس: 8:00 ص - 12:00 م</p>
+                            <p>الجمعة: مواعيد مخصصة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Links Section -->
+    <section class="section" style="background: var(--bg-darker);">
+        <div class="container">
+            <div class="section-title">
+                <h2>تابعنا على مواقع التواصل الاجتماعي</h2>
+                <p class="section-subtitle">ابقَ على اطلاع بآخر العروض والخدمات</p>
+            </div>
+            
+            <div class="services-grid reveal" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+                <a href="#" class="card text-center" style="transition: var(--transition-fast);">
+                    <div class="service-icon" style="margin: 0 auto 15px; background: #1877f2;">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <h3>فيسبوك</h3>
+                    <p>تابعنا على فيسبوك</p>
+                </a>
+                
+                <a href="#" class="card text-center" style="transition: var(--transition-fast);">
+                    <div class="service-icon" style="margin: 0 auto 15px; background: #E4405F;">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>انستجرام</h3>
+                    <p>شاهد أعمالنا</p>
+                </a>
+                
+                <a href="#" class="card text-center" style="transition: var(--transition-fast);">
+                    <div class="service-icon" style="margin: 0 auto 15px; background: #25D366;">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>واتساب</h3>
+                    <p>تواصل مباشر</p>
+                </a>
+                
+                <a href="#" class="card text-center" style="transition: var(--transition-fast);">
+                    <div class="service-icon" style="margin: 0 auto 15px; background: #1DA1F2;">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <h3>تويتر</h3>
+                    <p>آخر الأخبار</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>موقعنا على الخريطة</h2>
+                <p class="section-subtitle">تعال وزرنا في موقعنا</p>
+            </div>
+            
+            <div class="map-container reveal">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3 style="margin: 15px 0;">خريطة الموقع</h3>
+                    <p>شارع الجامعة، القاهرة، مصر</p>
+                    <p style="font-size: 0.9rem; margin-top: 10px; color: var(--text-muted);">
+                        يمكن إضافة Google Maps Embed هنا<br>
+                        أو استبدال هذا القسم برابط خريطة تفاعلي
+                    </p>
+                    <a href="https://maps.google.com" target="_blank" class="btn btn-primary" style="margin-top: 20px;">
+                        <i class="fas fa-directions"></i> افتح في خرائط جوجل
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branches Section -->
+    <section class="section" style="background: var(--bg-darker);">
+        <div class="container">
+            <div class="section-title">
+                <h2>فروعنا</h2>
+                <p class="section-subtitle">زر أقرب فرع لك</p>
+            </div>
+            
+            <div class="services-grid reveal">
+                <div class="card">
+                    <div class="service-icon" style="margin: 0 auto 20px;">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 style="text-align: center; color: var(--primary-green);">الفرع الرئيسي - الفتح</h3>
+                    <div style="text-align: center;">
+                        <p><i class="fas fa-map-marker-alt" style="color: var(--primary-green);"></i>مدينة السنبلاوين - حي النخل - شارع مجلس المدينة </p>
+                        <p><i class="fas fa-phone" style="color: var(--primary-green);"></i> +201007681870</p>
+                        <p><i class="fas fa-clock" style="color: var(--primary-green);"></i> 8 صباحاً - 12 مساءاً </p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="service-icon" style="margin: 0 auto 20px;">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3 style="text-align: center; color: var(--primary-green);">فرع المعادي</h3>
+                    <div style="text-align: center;">
+                        <p><i class="fas fa-map-marker-alt" style="color: var(--primary-green);"></i>مدينة السنبلاوين - حي النخل - شارع مجلس المدينة </p>
+                        <p><i class="fas fa-phone" style="color: var(--primary-green);"></i> +201007681870</p>
+                        <p><i class="fas fa-clock" style="color: var(--primary-green);"></i> 8 صباحاً - 12 مساءاً </p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="service-icon" style="margin: 0 auto 20px;">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3 style="text-align: center; color: var(--primary-green);">فرع مدينة نصر</h3>
+                    <div style="text-align: center;">
+                        <p><i class="fas fa-map-marker-alt" style="color: var(--primary-green);"></i>مدينة السنبلاوين - حي النخل - شارع مجلس المدينة </p>
+                        <p><i class="fas fa-phone" style="color: var(--primary-green);"></i> +201007681870</p>
+                        <p><i class="fas fa-clock" style="color: var(--primary-green);"></i> 8 صباحاً - 12 مساءاً </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>الأسئلة الشائعة</h2>
+                <p class="section-subtitle">إجابات على أكثر الأسئلة شيوعاً</p>
+            </div>
+            
+            <div class="reveal" style="max-width: 800px; margin: 0 auto;">
+                <div class="card" style="margin-bottom: 20px; padding: 30px;">
+                    <h3 style="color: var(--primary-green); margin-bottom: 15px;">
+                        <i class="fas fa-question-circle"></i> كم يستغرق إنجاز الخدمات؟
+                    </h3>
+                    <p>
+                        معظم الخدمات الإلكترونية تُنجز خلال 24-48 ساعة. خدمات الطباعة تعتمد على حجم الطلب
+                        ولكن عادة ما تكون جاهزة في نفس اليوم أو اليوم التالي.
+                    </p>
+                </div>
+                
+                <div class="card" style="margin-bottom: 20px; padding: 30px;">
+                    <h3 style="color: var(--primary-green); margin-bottom: 15px;">
+                        <i class="fas fa-question-circle"></i> هل تقدمون خدمات طارئة؟
+                    </h3>
+                    <p>
+                        نعم، نقدم خدمات عاجلة مقابل رسوم إضافية بسيطة. يمكننا إنجاز معظم الطلبات
+                        العاجلة خلال ساعات قليلة.
+                    </p>
+                </div>
+                
+                <div class="card" style="margin-bottom: 20px; padding: 30px;">
+                    <h3 style="color: var(--primary-green); margin-bottom: 15px;">
+                        <i class="fas fa-question-circle"></i> هل توفرون خدمة التوصيل؟
+                    </h3>
+                    <p>
+                        نعم، نوفر خدمة التوصيل للطلبات الكبيرة داخل القاهرة الكبرى. يمكنك أيضاً
+                        استلام طلبك من أي فرع من فروعنا.
+                    </p>
+                </div>
+                
+                <div class="card" style="padding: 30px;">
+                    <h3 style="color: var(--primary-green); margin-bottom: 15px;">
+                        <i class="fas fa-question-circle"></i> ما هي طرق الدفع المتاحة؟
+                    </h3>
+                    <p>
+                        نقبل الدفع النقدي عند الاستلام، والتحويل البنكي، وبطاقات الائتمان،
+                        ومحافظ الدفع الإلكترونية.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background: var(--bg-darker);">
+        <div class="container text-center">
+            <div class="reveal">
+                <h2 style="margin-bottom: 20px;">لديك سؤال آخر؟</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 30px; color: var(--text-secondary);">
+                    لا تتردد في التواصل معنا عبر الواتساب للحصول على إجابة فورية
+                </p>
+                <a href="https://wa.me/201007681870" target="_blank" class="btn btn-primary btn-lg">
+                    <i class="fab fa-whatsapp"></i> راسلنا على واتساب
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- About Section -->
+                <div class="footer-section">
+                    <h3>مؤسسة الفتح</h3>
+                    <p>
+                         مركز متخصص في تقديم جميع الخدمات الإلكترونية الطلابية والحكومية
+                 بالإضافة إلى خدمات الطباعة الاحترافية.
+                    </p>
+                    <div class="social-links">
+                        <a target="_blank" href="https://www.facebook.com/CentrElfath" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a target="_blank" href="https://wa.me/201007681870?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D9%85%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%A7%D8%B9%D8%B1%D9%81%20%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AA%D8%B1" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="printing.html">المطبعة</a></li>
+                        <li><a href="services.html">الخدمات</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div class="footer-section">
+                    <h3>خدماتنا</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">خدمات طلابية</a></li>
+                        <li><a href="services.html">خدمات تعليمية</a></li>
+                        <li><a href="services.html">خدمات حكومية</a></li>
+                        <li><a href="printing.html">طباعة الكتب</a></li>
+                        <li><a href="printing.html">تجليد</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h3>تواصل معنا</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> +201558060018</li>
+                        <li><i class="fas fa-envelope"></i> contact@alfath.online </li>
+                        <li><i class="fas fa-map-marker-alt"></i> مدينة السنبلاوين - الدقهلية ، مصر </li>
+                        <li><i class="fas fa-clock"></i> 8 صباحاً - 12 مساءاً </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2027
+                    <br/> مؤسسة الفتح. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/201558060018" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

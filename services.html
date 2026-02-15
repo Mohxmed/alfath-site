@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="جميع خدماتنا الإلكترونية - طلابية، تعليمية، حكومية، وطباعة">
+    <title>مركز الخدمات الإلكترونية | جميع الخدمات</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav-container">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-print"></i>
+                    <span>خدمات الفتح</span>
+                </a>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">الرئيسية</a></li>
+                    <li><a href="printing.html" class="nav-link">المطبعة</a></li>
+                    <li><a href="services.html" class="nav-link active">الخدمات</a></li>
+                    <li><a href="about.html" class="nav-link">من نحن</a></li>
+                    <li><a href="contact.html" class="nav-link">اتصل بنا</a></li>
+                </ul>
+                
+                <!-- Right Side: Social + Call Button -->
+                <div class="nav-right">
+                    <div class="social-links">
+                        <a target="_blank" href="https://www.facebook.com/CentrElfath" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a target="_blank" href="https://wa.me/201007681870?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D9%85%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%A7%D8%B9%D8%B1%D9%81%20%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AA%D8%B1" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <a href="tel:+201558060018" class="call-btn">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>اتصل الآن</span>
+                    </a>
+                </div>
+                
+                
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 50vh; padding-top: 150px;">
+        <div class="container text-center">
+            <div class="reveal">
+                <h1 style="font-size: 3.5rem; margin-bottom: 20px;">
+                    جميع <span class="highlight">خدماتنا</span>
+                </h1>
+                <p style="font-size: 1.3rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto;">
+                    نقدم أكثر من 40 خدمة إلكترونية وطباعية لخدمة الطلاب والمعلمين والمواطنين
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Filter & Grid -->
+    <section class="section">
+        <div class="container">
+            <!-- Filter Buttons -->
+            <div class="filter-buttons reveal">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-th"></i> جميع الخدمات
+                </button>
+                <button class="filter-btn" data-filter="student">
+                    <i class="fas fa-user-graduate"></i> خدمات طلابية
+                </button>
+                <button class="filter-btn" data-filter="teacher">
+                    <i class="fas fa-chalkboard-teacher"></i> خدمات تعليمية
+                </button>
+                <button class="filter-btn" data-filter="government">
+                    <i class="fas fa-landmark"></i> خدمات حكومية
+                </button>
+                <button class="filter-btn" data-filter="printing">
+                    <i class="fas fa-print"></i> خدمات طباعة
+                </button>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="services-grid reveal">
+                
+                <!-- STUDENT SERVICES -->
+                <div class="service-card card" data-category="student">
+                    <div class="service-icon">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <h3>رغبات الثانوية العامة والأزهرية</h3>
+                    <p>تسجيل رغبات الطلاب إلكترونيًا مع مراجعة الاختيارات.</p>
+                </div>
+                <div class="service-card card" data-category="student">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>التقديم للجامعات</h3>
+                    <p>التقديم الإلكتروني لجميع الجامعات الخاصة والأهلية داخل مصر.</p>
+                </div>
+
+                <div class="service-card card" data-category="student">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>الطباعة والتصوير</h3>
+                    <p>طباعة إنك جيت، ليزر، وديجيتال بأعلى جودة.</p>
+                </div>
+
+                <div class="service-card card" data-category="student">
+                    <div class="service-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>طباعة ألوان وأسود</h3>
+                    <p>طباعة إنك جيت، ليزر، وديجيتال بأعلى جودة.</p>
+                </div>
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-clone"></i>
+                    </div>
+                    <h3>تصوير المستندات</h3>
+                    <p>تصوير جميع أنواع المستندات والأوراق</p>
+                </div>
+
+                <div class="service-card card" data-category="student">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>استمارة إنجاز</h3>
+                    <p>إعداد وتقديم استمارة إنجاز بشكل رسمي ومعتمد.</p>
+                </div>
+
+                <div class="service-card card" data-category="student">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>إفادة تخرج</h3>
+                    <p>استخراج إفادة تخرج رسمية للخريجين الجدد</p>
+                </div>
+
+                <div class="service-card card" data-category="student">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>كشف الدرجات</h3>
+                    <p>استخراج كشوف درجات معتمدة من الجامعة</p>
+                </div>
+
+                <div class="service-card card" data-category="student">
+                    <div class="service-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>التقديم علي الوظائف</h3>
+                    <p>التقديم الالكتروني على الوظائف الحكومية والخاصة، واعداد التقديمات بشكل احترافي</p>
+                </div>
+
+                <div class="service-card card" data-category="student">
+                    <div class="service-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>تحويل بين الكليات</h3>
+                    <p>إجراءات التحويل بين الكليات والأقسام المختلفة</p>
+                </div>
+
+                <div class="service-card card" data-category="student">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h3>طلب إعادة قيد</h3>
+                    <p>تقديم طلبات إعادة القيد للطلاب المنقطعين</p>
+                </div>
+
+                <div class="service-card card" data-category="student">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>جدول الامتحانات</h3>
+                    <p>طباعة جداول الامتحانات الرسمية</p>
+                </div>
+
+                <div class="service-card card" data-category="student">
+                    <div class="service-icon">
+                        <i class="fas fa-money-check"></i>
+                    </div>
+                    <h3>إيصالات السداد</h3>
+                    <p>طباعة إيصالات سداد المصروفات الدراسية</p>
+                </div>
+
+                <!-- TEACHER SERVICES -->
+                <div class="service-card card" data-category="teacher">
+                    <div class="service-icon">
+                        <i class="fas fa-file-signature"></i>
+                    </div>
+                    <h3>شهادات خبرة</h3>
+                    <p>استخراج شهادات الخبرة للمعلمين والأساتذة</p>
+                </div>
+
+                <div class="service-card card" data-category="teacher">
+                    <div class="service-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>شهادات تقدير</h3>
+                    <p>تصميم وطباعة شهادات التقدير للمعلمين</p>
+                </div>
+
+                <div class="service-card card" data-category="teacher">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>تقديمات الحضانات والمدارس</h3>
+                    <p>تقديم إلكتروني للحضانات والمدارس الحكومية والخاصة (KG – أولى ابتدائي) للتربية والتعليم والأزهر.</p>
+                </div>
+
+                <div class="service-card card" data-category="teacher">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>تقديم الصف الأول الثانوي</h3>
+                    <p>تسجيل وتقديم الصف الأول الثانوي العام والفني ومتابعة حالة الطلب.</p>
+                </div>
+
+                <div class="service-card card" data-category="teacher">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>استمارات التقييم</h3>
+                    <p>طباعة استمارات تقييم الطلاب والامتحانات</p>
+                </div>
+                <div class="service-card card" data-category="teacher">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>استخراج استمارات الشهادات</h3>
+                    <p>طباعة استمارات تقييم الطلاب والامتحانات</p>
+                </div>
+
+                <div class="service-card card" data-category="teacher">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <h3>نماذج الاختبارات</h3>
+                    <p>تصميم وطباعة نماذج الاختبارات الدراسية</p>
+                </div>
+
+                <div class="service-card card" data-category="teacher">
+                    <div class="service-icon">
+                        <i class="fas fa-presentation"></i>
+                    </div>
+                    <h3>المواد التعليمية</h3>
+                    <p>طباعة الشرائح والمواد التعليمية التوضيحية</p>
+                </div>
+
+                <div class="service-card card" data-category="teacher">
+                    <div class="service-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>طلبات الترقيات</h3>
+                    <p>إعداد ملفات الترقيات للمعلمين</p>
+                </div>
+
+                <div class="service-card card" data-category="teacher">
+                    <div class="service-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>الملفات الإدارية</h3>
+                    <p>تجهيز وطباعة الملفات الإدارية للمعلمين</p>
+                </div>
+
+                <!-- GOVERNMENT SERVICES -->
+                <div class="service-card card" data-category="government">
+                    <div class="service-icon">
+                        <i class="fas fa-id-card-alt"></i>
+                    </div>
+                    <h3>استخراج البطاقة الشخصية</h3>
+                    <p>مساعدة في استخراج وتجديد بطاقات الرقم القومي</p>
+                </div>
+
+                <div class="service-card card" data-category="government">
+                    <div class="service-icon">
+                        <i class="fas fa-passport"></i>
+                    </div>
+                    <h3>استخراج جواز السفر</h3>
+                    <p>إجراءات استخراج وتجديد جوازات السفر</p>
+                </div>
+
+                <div class="service-card card" data-category="government">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>رخصة القيادة</h3>
+                    <p>استخراج وتجديد رخص القيادة</p>
+                </div>
+
+                <div class="service-card card" data-category="government">
+                    <div class="service-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3>صحيفة الحالة الجنائية</h3>
+                    <p>استخراج صحائف الحالة الجنائية الرسمية</p>
+                </div>
+
+                <div class="service-card card" data-category="government">
+                    <div class="service-icon">
+                        <i class="fas fa-file-medical"></i>
+                    </div>
+                    <h3>شهادات صحية</h3>
+                    <p>استخراج الشهادات الصحية المختلفة</p>
+                </div>
+
+                <div class="service-card card" data-category="government">
+                    <div class="service-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3>شهادة الميلاد</h3>
+                    <p>استخراج شهادات ميلاد كمبيوتر</p>
+                </div>
+
+                <div class="service-card card" data-category="government">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>عقود الإيجار</h3>
+                    <p>توثيق عقود الإيجار من الشهر العقاري</p>
+                </div>
+
+                <div class="service-card card" data-category="government">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>السجل التجاري</h3>
+                    <p>استخراج السجلات التجارية للشركات</p>
+                </div>
+
+                <div class="service-card card" data-category="government">
+                    <div class="service-icon">
+                        <i class="fas fa-stamp"></i>
+                    </div>
+                    <h3>البطاقة الضريبية</h3>
+                    <p>استخراج البطاقات الضريبية</p>
+                </div>
+
+                <div class="service-card card" data-category="government">
+                    <div class="service-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>التوكيلات الرسمية</h3>
+                    <p>إصدار التوكيلات من الشهر العقاري</p>
+                </div>
+
+                <div class="service-card card" data-category="government">
+                    <div class="service-icon">
+                        <i class="fas fa-file-invoice"></i>
+                    </div>
+                    <h3>فواتير الخدمات</h3>
+                    <p>دفع فواتير الكهرباء والمياه والغاز</p>
+                </div>
+
+                <div class="service-card card" data-category="government">
+                    <div class="service-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>شهادات التأمينات</h3>
+                    <p>استخراج شهادات التأمينات الاجتماعية</p>
+                </div>
+
+                <!-- PRINTING SERVICES -->
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>طباعة الكتب</h3>
+                    <p>طباعة الكتب والمراجع الدراسية بجودة عالية</p>
+                </div>
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-sticky-note"></i>
+                    </div>
+                    <h3>طباعة المذكرات</h3>
+                    <p>طباعة المذكرات والملخصات الدراسية</p>
+                </div>
+
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>طباعة ملونة</h3>
+                    <p>طباعة الصور والرسومات بألوان عالية الجودة</p>
+                </div>
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <h3>التجليد الحلزوني</h3>
+                    <p>تجليد المذكرات والكتب بالطريقة الحلزونية</p>
+                </div>
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-compress"></i>
+                    </div>
+                    <h3>التجليد بالغراء</h3>
+                    <p>تجليد فاخر بالغراء للأبحاث والكتب</p>
+                </div>
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>التجليد السلك</h3>
+                    <p>تجليد بالسلك المعدني للمستندات الرسمية</p>
+                </div>
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>التغليف الحراري</h3>
+                    <p>تغليف حراري للحفاظ على المستندات</p>
+                </div>
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>طباعة PDF</h3>
+                    <p>طباعة ملفات PDF بجميع الأحجام</p>
+                </div>
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>طباعة الصور</h3>
+                    <p>طباعة الصور الفوتوغرافية بجودة HD</p>
+                </div>
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>طباعة المغلفات</h3>
+                    <p>طباعة وتصميم المغلفات الرسمية</p>
+                </div>
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-address-card"></i>
+                    </div>
+                    <h3>بطاقات الأعمال</h3>
+                    <p>تصميم وطباعة بطاقات العمل الشخصية</p>
+                </div>
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3>البروشورات</h3>
+                    <p>طباعة البروشورات الإعلانية والتسويقية</p>
+                </div>
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <h3>الملصقات</h3>
+                    <p>طباعة الملصقات واللافتات الإعلانية</p>
+                </div>
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>القص والتشطيب</h3>
+                    <p>قص وتشطيب المطبوعات بدقة عالية</p>
+                </div>
+
+                <div class="service-card card" data-category="printing">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3>التصميم الجرافيكي</h3>
+                    <p>تصميم جرافيكي احترافي للمطبوعات</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background: var(--bg-darker);">
+        <div class="container text-center">
+            <div class="reveal">
+                <h2 style="margin-bottom: 20px;">لم تجد الخدمة التي تبحث عنها؟</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 30px; color: var(--text-secondary);">
+                    تواصل معنا الآن وسنساعدك في إيجاد الحل المناسب
+                </p>
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                    <a href="contact.html" class="btn btn-primary">
+                        <i class="fas fa-phone"></i> اتصل بنا
+                    </a>
+                    <a href="https://wa.me/201234567890" class="btn btn-outline">
+                        <i class="fab fa-whatsapp"></i> راسلنا على واتساب
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- About Section -->
+                <div class="footer-section">
+                    <h3>مؤسسة الفتح</h3>
+                    <p>
+                         مركز متخصص في تقديم جميع الخدمات الإلكترونية الطلابية والحكومية
+                 بالإضافة إلى خدمات الطباعة الاحترافية.
+                    </p>
+                    <div class="social-links">
+                        <a target="_blank" href="https://www.facebook.com/CentrElfath" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a target="_blank" href="https://wa.me/201007681870?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D9%85%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%A7%D8%B9%D8%B1%D9%81%20%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AA%D8%B1" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="printing.html">المطبعة</a></li>
+                        <li><a href="services.html">الخدمات</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div class="footer-section">
+                    <h3>خدماتنا</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">خدمات طلابية</a></li>
+                        <li><a href="services.html">خدمات تعليمية</a></li>
+                        <li><a href="services.html">خدمات حكومية</a></li>
+                        <li><a href="printing.html">طباعة الكتب</a></li>
+                        <li><a href="printing.html">تجليد</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h3>تواصل معنا</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> +201558060018</li>
+                        <li><i class="fas fa-envelope"></i> contact@alfath.online </li>
+                        <li><i class="fas fa-map-marker-alt"></i> مدينة السنبلاوين - الدقهلية ، مصر </li>
+                        <li><i class="fas fa-clock"></i> 8 صباحاً - 12 مساءاً </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2027
+                    <br/> مؤسسة الفتح. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/201558060018" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
