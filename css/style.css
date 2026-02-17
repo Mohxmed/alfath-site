@@ -1181,4 +1181,8 @@ a {
   .container {
   max-width: 100%;
   }
+  .manager{
+        flex-direction: column;
+
+  }
 }
