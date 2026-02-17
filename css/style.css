@@ -1159,7 +1159,7 @@ a {
 
   /* اخفاء call-btn على الشاشات الصغيرة (موبايل) */
 @media (max-width: 768px) {
-  .call-btn {
+  .nav-right {
     display: none;
   }
 }
